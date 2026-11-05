@@ -11,6 +11,7 @@ object CommandManager {
     fun init() {
         commands.add(FriendCommand)
         commands.add(HelpCommand)
+        commands.add(ToolboxCommand) 
     }
 
     fun handleChat(message: String) {
