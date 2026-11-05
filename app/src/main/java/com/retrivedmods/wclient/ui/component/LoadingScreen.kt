@@ -133,7 +133,7 @@ fun LoadingScreen(onDone: () -> Unit) {
             verticalArrangement = Arrangement.Center,
         ) {
             Text(
-                text = "WClient",
+                text = "Toolbox For MCPE",
                 fontSize = 36.sp,
                 fontWeight = FontWeight.Black,
                 color = primaryColor.copy(alpha = textGlow),
