@@ -41,21 +41,21 @@ data class SubServerInfo(
 val servers = listOf(
 
     ServerInfo(
-        name = "Lifeboat",
+        name = "2b2tPE",
         iconRes = R.drawable.lifeboat_icon,
-        address = "play.lbsg.net",
+        address = "2b2tpe.org",
         port = 19132
     ),
     ServerInfo(
-        name = "CubeCraft",
+        name = "10b10tPE",
         iconRes = R.drawable.cubecraft_icon,
-        address = "play.cubecraft.net",
+        address = "10b10t.uk.to",
         port = 19132
     ),
     ServerInfo(
-        name = "NetherGames",
+        name = "6b6t",
         iconRes = R.drawable.nethergames,
-        address = "play.nethergames.org",
+        address = "br.6b6t.org",
         port = 19132
     ),
     ServerInfo(
@@ -64,6 +64,11 @@ val servers = listOf(
         address = "donutsmp.net",
         port = 19132,
     ),
+    ServerInfo(
+        name = "CubeCraft", 
+        iconRes = R.drawable.cubecraft_icon, 
+        address = "play.cubecraft.net", 
+    ), 
 )
 
 @OptIn(ExperimentalMaterial3Api::class)
