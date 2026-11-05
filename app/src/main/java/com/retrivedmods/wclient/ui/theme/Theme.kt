@@ -17,23 +17,22 @@ import androidx.compose.ui.unit.sp
 
 
 object WColors {
-    // Primary reds
-    val Primary = Color(0xFFEF4444)
-    val PrimaryLight = Color(0xFFF87171)
-    val PrimaryDark = Color(0xFFDC2626)
+    // Primary shamrock greens
+    val Primary = Color(0xFF10B981)
+    val PrimaryLight = Color(0xFF34D399)
+    val PrimaryDark = Color(0xFF059669)
     val OnPrimary = Color(0xFFFFFFFF)
 
-    // Secondary for contrast (cool slate)
+    // Secondary for contrast (cool dark slate)
     val Secondary = Color(0xFF64748B)
     val SecondaryVariant = Color(0xFF475569)
     val SecondaryLight = Color(0xFF94A3B8)
     val OnSecondary = Color(0xFFFFFFFF)
 
-    // Accent red/pink for glow effects
-    val Accent = Color(0xFFF43F5E)
-    val AccentLight = Color(0xFFFB7185)
-    val AccentDark = Color(0xFFBE123C)
-
+    // Accent vibrant emerald/mint for glow effects
+    val Accent = Color(0xFF06D6A0)
+    val AccentLight = Color(0xFF52B788)
+    val AccentDark = Color(0xFF047857)
 
     val Background = Color(0xFF0B0A10)
     val Surface = Color(0xFF121016)
@@ -52,12 +51,11 @@ object WColors {
 
     val Overlay = Color(0x80000000)
 
-
     val MinimapBackground = Color(0xCC000000)
     val MinimapGrid = Color(0x66A9A9A9)
     val MinimapCrosshair = Color(0x80808080)
     val MinimapPlayerMarker = Color(0xFFFFFFFF)
-    val MinimapNorth = Color(0xFFEF4444)   // match primary red
+    val MinimapNorth = Color(0xFF10B981)   // match primary shamrock green
     val MinimapEntityClose = Color(0xFFFF3B3B)
     val MinimapEntityFar = Color(0xFFFFD166)
     val MinimapZoom = 1.0f
@@ -75,7 +73,7 @@ object ClickGUIColors {
     val SecondaryText = Color(0xFF9AA3B2)
 
     val PanelBackground = Color(0xF014131A)
-    val PanelBorder = Color(0x60EF4444)
+    val PanelBorder = Color(0x6010B981)
 
     val ModuleEnabled = AccentColor
     val ModuleDisabled = Color(0xFF23222B)
